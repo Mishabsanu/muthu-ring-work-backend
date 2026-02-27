@@ -17,7 +17,7 @@ app.use(hpp());
 app.use(mongoSanitize());
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000","https://muthu-ring-work.vercel.app"],
     credentials: true,
   })
 );
